@@ -130,7 +130,6 @@ h3 { font-size: var(--fs-h3); }
     margin-bottom: 2em;
 }
 
-
 /* header */
 
 header {
@@ -209,8 +208,6 @@ header {
 .nav-open .hamburger::after {
     opacity: 0;
 }
-
-
 
 .hamburger {
     display: block;
@@ -456,4 +453,23 @@ header {
 
 .social-list__link {
     padding: .5em;
+}
+
+
+/* Individual portfolio item style */
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-item-individual__img {
+    margin: 0 auto;
 }
