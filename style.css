@@ -23,7 +23,7 @@ img {
     --fw-bold: 500;
 
     --clr-bg: #1b1b31;
-    --clr-text: #fff0f6;
+    --clr-text: #ffffff;
     --clr-primary: #fcc053;
     --clr-primary-hover: #fccc5c;
 
@@ -57,22 +57,22 @@ h1 {
 
 .container {
     text-align: center;
-    width: 300px;
     margin: 60px auto;
+    width: 300px;
 }
 
 .logo {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 2px;
     border: var(--clr-primary) solid 4px;
+    border-radius: 50%;
+    padding: 2px;
+    height: 100px;
+    width: 100px;
 }
 
 .username {
     font-family: var(--ff-secondary);
-    font-weight: var(--fw-reg);
     font-size: var(--fs-h3);
+    font-weight: var(--fw-reg);
     opacity: 0.8;
 }
 
@@ -85,36 +85,36 @@ h1 {
     margin: 48px 0;
 }
 
-.list__link {
-    display: flex;
-    height: 53px;
-    align-items: center;
-    justify-content: center;
+.item__link {
     background: var(--clr-primary);
     color: #1b1b31;
-    text-transform: uppercase;
     font-size: var(--fs-body);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
     margin-bottom: 16px;
     border-radius: 6px;
     transition: background 400ms;
 }
 
-.list__link:hover {
+.item__link:hover {
     background: var(--clr-primary-hover);
 }
 
 .fa-brands,
 .fas,
 .fa-solid {
-    padding-right: .4em;
+    padding-right: 0.4em;
 }
 
 
 /* footer */
 
 .footer {
-    font-weight: var(--fw-bold);
     font-size: var(--fs-footer);
+    font-weight: var(--fw-bold);
     opacity: 0.6;
     transition: opacity 400ms;
 }
